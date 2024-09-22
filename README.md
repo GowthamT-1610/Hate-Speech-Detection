@@ -1,2 +1,2 @@
-#Project deta
+Project deta
 # Hate-Speech-Detection
