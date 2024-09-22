@@ -1,18 +1,11 @@
 # Project Details
-Hate Speech Detection
-Project Overview
-This project focuses on detecting hate speech in text data using various machine learning and natural language processing techniques. The goal is to build a model that can accurately classify text as hate speech or non-hate speech, contributing to a safer and more inclusive online environment.
+**Project title :** Hate Speech Detection
+**Topic** :
+**Group Members :**
+Tadikamalla Gowtham Krishna - 121321909
+Raahul Narayana Reddy Kummitha - 121109521
+Sriyank Sagi - 121302335
+Dhanush Garikapati - 121324924
+Venakata SatySai Maruti Kameshwar Modali - 121306040
 
-Group Members
-Rahul
-Dhanush
-Sriyank
-Maruthi
-Gowtham
-Table of Contents
-Introduction
-Project Objective
-Technologies Used
-How to Run the Project
-Contributors
-Introduction
+
