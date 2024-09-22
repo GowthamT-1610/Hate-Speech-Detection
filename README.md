@@ -1,6 +1,6 @@
 # Project Details<br>
 **Project title :** Hate Speech Detection<br>
-**Topic** :<br>
+**Topic** : Natural Language Processing - NLP <br>
 **Group Members :**<br>
 Tadikamalla Gowtham Krishna - 121321909<br>
 Raahul Narayana Reddy Kummitha - 121109521<br>
