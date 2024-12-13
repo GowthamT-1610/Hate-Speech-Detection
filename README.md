@@ -161,7 +161,9 @@ Machine learning models (DistilBERT, LSTM, and Naive Bayes) were chosen for thei
 All preprocessing steps, model parameters, and evaluation criteria were fully documented in the report and GitHub repository. Visualizations like word clouds and AUROC curves were included to provide interpretable results, ensuring the methodology is reproducible and transparent.
 
 ### Final Thoughts:
-This project bridges theory and practice in **hate speech detection**, offering a machine learning framework that addresses social media challenges while fostering safer, more inclusive digital spaces.
+This project bridges theory and practice in hate speech detection, offering a machine learning framework that tackles social media challenges while promoting safer, more inclusive digital spaces.
+
+By addressing data biases and ensuring fairness and transparency in model development, the project upholds ethical principles in data science. The steps taken to mitigate ethical concerns not only enhance the credibility of the hate speech detection system but also contribute to creating more equitable and trustworthy AI solutions for societal challenges.
 
 ---
 
