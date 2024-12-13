@@ -9,18 +9,6 @@ Dhanush Garikapati - 121324924<br>
 Venakata SatySai Maruti Kameshwar Modali - 121306050<br>
 # Final Project: Hate Speech Detection
 
-## Course Details
-- **Course Code**: CB.EN.U4.ELC20061
-- **Semester**: Fall 2024
-- **Instructor**: Dr. [Insert Instructor's Name]
-- **Team Members**: 
-  - Sagi Sriyank
-  - Rahul [Last Name]
-  - Dhanush [Last Name]
-  - Maruthi [Last Name]
-  - Gowtham [Last Name]
-
----
 
 ## Project Overview
 - **Objective**: Develop a machine learning model to detect hate speech in text data, focusing on accurate classification into hate and non-hate categories.
@@ -74,23 +62,7 @@ Venakata SatySai Maruti Kameshwar Modali - 121306050<br>
 - **Additional Files**: 
   - `requirements.txt`: Contains all dependencies required to execute the project.
 
----
 
-## How to Run the Project
-1. Clone the repository:
-   ```bash
-   git clone [repository link]
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Execute the workflow:
-   ```bash
-   jupyter notebook eda_visualizations.ipynb
-   ```
-
----
 
 ## Visualizations
 - Example Visualization:
