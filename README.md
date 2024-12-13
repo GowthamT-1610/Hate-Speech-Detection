@@ -12,16 +12,21 @@ Venakata SatySai Maruti Kameshwar Modali - 121306050<br>
 
 ## Project Overview
 - **Objective**: Develop a machine learning model to detect hate speech in text data, focusing on accurate classification into hate and non-hate categories.
-- **Dataset**: Hate Speech Dataset (sourced from Kaggle).
+
  
 This project focuses on Hate Speech Detection using Natural Language Processing (NLP) techniques and machine learning models to identify hateful text on social media. Motivated by the increasing prevalence of hate speech, the dataset reflects social media trends, including emoticons and slang, which complicate detection. It is preprocessed and categorized into hateful ("1") or non-hateful ("0") text, enabling the training of effective models. This benchmark dataset supports Deep Learning (DL) and NLP applications, aiding in the development of automated systems to filter harmful content while adhering to policy guidelines to reduce cyber harm.
 
 ---
 
 ## Key Steps in the Project
-1. **Data Preparation**:
-   - Text preprocessing steps included tokenization, removal of stop words, lemmatization, and lowercasing.
-   - Addressed class imbalance using techniques such as [if applicable, specify oversampling or undersampling].
+The dataset used for this project is a collection of social media comments sourced from open-access platforms like Kaggle. It contains text labeled as either hateful ("1") or non-hateful ("0"). The hateful category includes offensive language, while the non-hateful category contains neutral comments.
+
+Data preparation involved several steps:
+
+Preprocessing: Duplicates and null values were removed, and text was cleaned by removing special characters and numbers. Only English comments were retained using the langdetect library. The labels were verified for accuracy.
+Transformation: The cleaned data was stored in a pandas DataFrame with two columns: "Text" and "Label." Text was tokenized and padded to a uniform length of 100 tokens.
+Storage: The processed dataset was stored as a CSV file, enabling efficient querying and machine learning integration.
+These steps were essential to ensure the dataset was clean, consistent, and ready for analysis, which is vital for building accurate machine learning models.
 
 2. **Exploratory Data Analysis (EDA)**:
    - Summary statistics:
