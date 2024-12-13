@@ -38,8 +38,11 @@ Label Distribution: The dataset consists of comments labeled as either hateful (
 **Statistical Tests and Hypothesis Testing**:
 
 Hypothesis testing was performed to examine if there was a significant difference in the frequency of hateful and non-hateful comments. The null hypothesis was rejected based on the results.
+
 A Chi-Square test was performed to analyze the relationship between specific words and their association with hateful or non-hateful labels, confirming the statistical significance of certain terms in identifying hate speech.
+
 Distribution Analysis: The length of comments (in terms of word count) was analyzed, showing that hateful comments tend to be shorter than non-hateful ones. A box plot was created to visualize this distribution, highlighting the difference in comment lengths between the two classes.
+
 Langdetect was utilized to filter the dataset, retaining only English sentences to ensure relevance and consistency for the hate speech detection task. Each sentence was analyzed using the library, and only those identified as English and containing more than three words were kept. This preprocessing step removed non-English and overly short sentences, improving the dataset's quality for further analysis.
 
 ![image](https://github.com/user-attachments/assets/0867228f-ef87-4941-b9b8-692cdf4d9e8a)
