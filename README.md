@@ -28,15 +28,27 @@ Transformation: The cleaned data was stored in a pandas DataFrame with two colum
 Storage: The processed dataset was stored as a CSV file, enabling efficient querying and machine learning integration.
 These steps were essential to ensure the dataset was clean, consistent, and ready for analysis, which is vital for building accurate machine learning models.
 
-2. Exploratory Data Analysis (EDA) was conducted to understand the dataset's structure and key features. The following findings were made:
+Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA) was conducted to gain insights into the dataset, including its structure, distribution, and key characteristics.
 
-- **Label Distribution**: The dataset, containing hateful ("1") and non-hateful ("0") comments, was imbalanced, with a higher number of non-hateful comments. This imbalance was considered for machine learning adjustments.
+Label Distribution: The dataset consists of comments labeled as either hateful ("1") or non-hateful ("0"). The EDA revealed an imbalance, with more non-hateful comments than hateful ones. This imbalance was addressed during the machine learning process.
 
-- **Statistical Tests and Hypothesis Testing**:
-  - **Hypothesis Testing**: A test was performed to check for a significant difference between the frequency of hateful and non-hateful comments. The null hypothesis, which stated there was no significant difference, was rejected.
-  - **Chi-Square Test**: This test analyzed the relationship between specific words and their association with the labels. The results confirmed certain words' statistical significance in identifying hate speech.
+Statistical Tests and Hypothesis Testing:
 
-- **Distribution Analysis**: The length of comments was examined, revealing that hateful comments were typically shorter than non-hateful ones. A box plot visualized this difference in comment lengths across the two classes.
+Hypothesis testing was performed to examine if there was a significant difference in the frequency of hateful and non-hateful comments. The null hypothesis was rejected based on the results.
+A Chi-Square test was performed to analyze the relationship between specific words and their association with hateful or non-hateful labels, confirming the statistical significance of certain terms in identifying hate speech.
+Distribution Analysis: The length of comments (in terms of word count) was analyzed, showing that hateful comments tend to be shorter than non-hateful ones. A box plot was created to visualize this distribution, highlighting the difference in comment lengths between the two classes.
+
+Key Visualizations:
+
+Bar plots showing the frequency of hateful vs. non-hateful comments.
+A word cloud to visualize the most common words in each category (hateful and non-hateful comments).
+A box plot illustrating the distribution of comment lengths across the two labels.
+Findings and Insights:
+Hateful comments often include specific keywords or slang, while non-hateful comments tend to be longer and more formal.
+The dataset’s imbalance required further preprocessing to ensure fair model training.
+Conclusion:
+The EDA provided critical insights into the dataset, allowing for informed decisions in the subsequent stages of the project. By understanding the dataset’s characteristics, the preprocessing and modeling approaches were tailored to effectively address the challenges of hate speech detection.
 
 3. **Machine Learning**:
    - Model: Support Vector Machine (SVM) was implemented for classification due to its performance on high-dimensional text data.
