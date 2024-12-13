@@ -86,39 +86,33 @@ Based on the insights from the Exploratory Data Analysis (EDA), three machine le
   
 - **Naive Bayes**, while efficient and useful for initial exploration, struggled with more complex patterns in language. It was still valuable for understanding feature importance and text distributions but was outperformed by DistilBERT and LSTM in detecting nuanced language patterns.
 
-4. **Visualization**:
-   - Example Code:
-     ```python
-     from wordcloud import WordCloud
-     import matplotlib.pyplot as plt
+## Visualization
 
-     wordcloud = WordCloud(width=800, height=400).generate(" ".join(hate_speech_text))
-     plt.figure(figsize=(10, 5))
-     plt.imshow(wordcloud, interpolation='bilinear')
-     plt.axis('off')
-     plt.show()
-     ```
-   - Example Plot:
-     ![Word Cloud](path/to/wordcloud.png)
+In this section, we present key visualizations that provide insights into the analysis, preprocessing, and performance of the hate speech detection models.
 
----
+1. **Text Length Distribution by Label**  
+   This plot shows the distribution of the number of words in texts labeled as **Hate Speech** and **Non-Hate Speech**, indicating that **Non-Hate Speech** tends to have longer text lengths.  
+   **Figure 1**: Text Length Distribution by Label
 
-## Repository Contents
-- **Code Files**: 
-  - `data_preprocessing.py`: Scripts for cleaning and preprocessing text data.
-  - `eda_visualizations.ipynb`: Jupyter Notebook containing EDA and insights.
-  - `ml_model_training.py`: Script for training and evaluating the SVM model.
-- **Additional Files**: 
-  - `requirements.txt`: Contains all dependencies required to execute the project.
+2. **Cumulative Distribution of Text Lengths by Label**  
+   This plot illustrates the cumulative percentage of text lengths, showing that shorter text lengths dominate in both categories.  
+   **Figure 2**: Cumulative Distribution of Text Lengths by Label
 
----
+3. **Mean Sentiment Score by Speech Type**  
+   This plot compares the **mean sentiment scores** for **Hate Speech** and **Non-Hate Speech**, with error bars indicating statistical significance.  
+   **Figure 3**: Mean Sentiment Score by Speech Type with Error Bars
 
-## Visualizations
-- Example Visualization:
-  ![Visualization](path/to/visualization.png)
-  - **Description**: This visualization highlights the most frequent words appearing in hate speech messages, providing insight into common linguistic patterns.
+4. **Contingency Table: Label vs Sentiment Category**  
+   This heatmap displays the relationship between text labels and sentiment categories, highlighting significant differences across categories.  
+   **Figure 4**: Contingency Table: Label vs Sentiment Category
 
----
+5. **Distribution of Sentiment Scores**  
+   This histogram shows the **distribution of sentiment scores** for both **Hate Speech** and **Non-Hate Speech**, emphasizing patterns in sentiment polarity.  
+   **Figure 5**: Distribution of Sentiment Scores: Hate Speech vs Non-Hate Speech
+
+6. **Model Performance Comparison**  
+   This plot compares the performance metrics (Accuracy, Precision, Recall, F1-Score) of **Naive Bayes**, **LSTM**, and **DistilBERT**, with **DistilBERT** emerging as the best model.  
+   **Figure 6**: Model Performance Comparison
 
 
 
