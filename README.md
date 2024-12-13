@@ -42,24 +42,7 @@ A Chi-Square test was performed to analyze the relationship between specific wor
 Distribution Analysis: The length of comments (in terms of word count) was analyzed, showing that hateful comments tend to be shorter than non-hateful ones. A box plot was created to visualize this distribution, highlighting the difference in comment lengths between the two classes.
 Langdetect was utilized to filter the dataset, retaining only English sentences to ensure relevance and consistency for the hate speech detection task. Each sentence was analyzed using the library, and only those identified as English and containing more than three words were kept. This preprocessing step removed non-English and overly short sentences, improving the dataset's quality for further analysis.
 
-#Keeping only english sentences and removing other language sentences
-#landetect will only keep the english sentences and check will done for sentences above 3 words.
-from langdetect import detect, DetectorFactory
-
-# Ensure consistent results from langdetect
-DetectorFactory.seed = 0
-
-def is_english(text):
-    try:
-        return detect(text) == 'en'
-    except:
-        return False
-
-# Apply the function to filter the DataFrame
-df = df[df['Content'].apply(is_english)]
-
-# Display the filtered DataFrame
-print(df)
+![image](https://github.com/user-attachments/assets/0867228f-ef87-4941-b9b8-692cdf4d9e8a)
 
 **Key Visualizations**:
 
