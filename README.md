@@ -94,27 +94,38 @@ In this section, we present key visualizations that provide insights into the an
    This plot shows the distribution of the number of words in texts labeled as **Hate Speech** and **Non-Hate Speech**, indicating that **Non-Hate Speech** tends to have longer text lengths.
    ![image](https://github.com/user-attachments/assets/951b7322-9a36-41d4-b5b5-d3fc2cfe1064)
  
-   **Figure 1**: Text Length Distribution by Label
+                                             **Figure 1**: Text Length Distribution by Label
 
-3. **Cumulative Distribution of Text Lengths by Label**  
+2. **Cumulative Distribution of Text Lengths by Label**  
    This plot illustrates the cumulative percentage of text lengths, showing that shorter text lengths dominate in both categories.  
-   **Figure 2**: Cumulative Distribution of Text Lengths by Label
 
-4. **Mean Sentiment Score by Speech Type**  
+![image (1)](https://github.com/user-attachments/assets/0de1a08e-2305-4f0b-9a4d-d7e4d36ad0bf)
+
+                                            **Figure 2**: Cumulative Distribution of Text Lengths by Label
+
+3. **Mean Sentiment Score by Speech Type**  
    This plot compares the **mean sentiment scores** for **Hate Speech** and **Non-Hate Speech**, with error bars indicating statistical significance.  
-   **Figure 3**: Mean Sentiment Score by Speech Type with Error Bars
+![image (2)](https://github.com/user-attachments/assets/e9424115-e9d4-4f4d-ba85-997bec6a340b)
 
-5. **Contingency Table: Label vs Sentiment Category**  
+                                  **Figure 3**: Mean Sentiment Score by Speech Type with Error Bars
+
+4. **Contingency Table: Label vs Sentiment Category**  
    This heatmap displays the relationship between text labels and sentiment categories, highlighting significant differences across categories.  
-   **Figure 4**: Contingency Table: Label vs Sentiment Category
+![image (3)](https://github.com/user-attachments/assets/1d8a0839-df55-44d2-b197-b471b0b0b7ce)
 
-6. **Distribution of Sentiment Scores**  
+                                  **Figure 4**: Contingency Table: Label vs Sentiment Category
+
+5. **Distribution of Sentiment Scores**  
    This histogram shows the **distribution of sentiment scores** for both **Hate Speech** and **Non-Hate Speech**, emphasizing patterns in sentiment polarity.  
-   **Figure 5**: Distribution of Sentiment Scores: Hate Speech vs Non-Hate Speech
+![image (4)](https://github.com/user-attachments/assets/8e0c4fa8-c08a-4bc5-a27f-c940a3a128b8)
 
-7. **Model Performance Comparison**  
+                                 **Figure 5**: Distribution of Sentiment Scores: Hate Speech vs Non-Hate Speech
+
+6. **Model Performance Comparison**  
    This plot compares the performance metrics (Accuracy, Precision, Recall, F1-Score) of **Naive Bayes**, **LSTM**, and **DistilBERT**, with **DistilBERT** emerging as the best model.  
-   **Figure 6**: Model Performance Comparison
+![image (5)](https://github.com/user-attachments/assets/600fd553-2771-4380-b4c0-e6ebba9b7fff)
+
+                                          **Figure 6**: Model Performance Comparison
 
 
 
