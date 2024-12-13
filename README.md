@@ -62,7 +62,7 @@ Venakata SatySai Maruti Kameshwar Modali - 121306050<br>
 - **Additional Files**: 
   - `requirements.txt`: Contains all dependencies required to execute the project.
 
-
+---
 
 ## Visualizations
 - Example Visualization:
@@ -89,6 +89,3 @@ Venakata SatySai Maruti Kameshwar Modali - 121306050<br>
 
 ## License
 [Include license information.]
-
-
-
