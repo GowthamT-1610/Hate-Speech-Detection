@@ -28,7 +28,9 @@ Transformation: The cleaned data was stored in a pandas DataFrame with two colum
 Storage: The processed dataset was stored as a CSV file, enabling efficient querying and machine learning integration.
 These steps were essential to ensure the dataset was clean, consistent, and ready for analysis, which is vital for building accurate machine learning models.
 
-Exploratory Data Analysis (EDA)
+**Exploratory Data Analysis (EDA)**
+
+
 Exploratory Data Analysis (EDA) was conducted to gain insights into the dataset, including its structure, distribution, and key characteristics.
 
 Label Distribution: The dataset consists of comments labeled as either hateful ("1") or non-hateful ("0"). The EDA revealed an imbalance, with more non-hateful comments than hateful ones. This imbalance was addressed during the machine learning process.
