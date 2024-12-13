@@ -71,11 +71,7 @@ Venakata SatySai Maruti Kameshwar Modali - 121306050<br>
 
 ---
 
-## Ethical Considerations
-- Bias in training data was mitigated by balancing the dataset and ensuring diverse representation.
-- Emphasized interpretability of the model to avoid misuse or misclassification.
 
----
 
 ## Insights and Future Work
 - **Key Insights**:
