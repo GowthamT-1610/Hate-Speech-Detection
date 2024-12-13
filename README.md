@@ -141,6 +141,25 @@ These insights offer advanced readers a practical perspective on implementing an
 - The incorporation of advanced preprocessing techniques, such as **language filtering** and **sequence padding**, further enhanced model performance.
 - This project emphasizes that combining state-of-the-art NLP models with rigorous preprocessing is essential for tackling hate speech detection challenges.
 
+## Data Science Ethics
+
+The ethical considerations in this project focused on ensuring fairness, transparency, and the mitigation of biases in hate speech detection, given its sensitive nature.
+
+### Potential Biases in Data Collection:
+The dataset, sourced from open-access platforms, consisted of social media text labeled as hateful or non-hateful. Concerns included potential biases in the labeling process due to subjective human judgments, as well as societal biases in the data, such as overrepresentation of certain demographics or linguistic styles.
+
+### Mitigation Strategies for Bias:
+To address these concerns:
+- The dataset was reviewed for label balance between hateful (1) and non-hateful (0) comments.
+- Preprocessing steps, including duplicate removal and language filtering using the `langdetect` library, were applied to eliminate irrelevant data.
+- The diversity of text inputs, including slang and emoticons, was maintained to ensure the model's generalization capability.
+
+### Fairness in Model Development:
+Machine learning models (DistilBERT, LSTM, and Naive Bayes) were chosen for their ability to handle diverse text data and imbalanced datasets. Model performance was monitored through accuracy, loss, and confusion matrices to ensure unbiased predictions and avoid overfitting or underfitting.
+
+### Transparency in Analysis:
+All preprocessing steps, model parameters, and evaluation criteria were fully documented in the report and GitHub repository. Visualizations like word clouds and AUROC curves were included to provide interpretable results, ensuring the methodology is reproducible and transparent.
+
 ### Final Thoughts:
 This project bridges theory and practice in **hate speech detection**, offering a machine learning framework that addresses social media challenges while fostering safer, more inclusive digital spaces.
 
