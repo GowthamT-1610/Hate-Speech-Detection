@@ -35,13 +35,13 @@ Exploratory Data Analysis (EDA) was conducted to gain insights into the dataset,
 
 Label Distribution: The dataset consists of comments labeled as either hateful ("1") or non-hateful ("0"). The EDA revealed an imbalance, with more non-hateful comments than hateful ones. This imbalance was addressed during the machine learning process.
 
-Statistical Tests and Hypothesis Testing:
+**Statistical Tests and Hypothesis Testing**:
 
 Hypothesis testing was performed to examine if there was a significant difference in the frequency of hateful and non-hateful comments. The null hypothesis was rejected based on the results.
 A Chi-Square test was performed to analyze the relationship between specific words and their association with hateful or non-hateful labels, confirming the statistical significance of certain terms in identifying hate speech.
 Distribution Analysis: The length of comments (in terms of word count) was analyzed, showing that hateful comments tend to be shorter than non-hateful ones. A box plot was created to visualize this distribution, highlighting the difference in comment lengths between the two classes.
 
-Key Visualizations:
+**Key Visualizations**:
 
 Bar plots showing the frequency of hateful vs. non-hateful comments.
 A word cloud to visualize the most common words in each category (hateful and non-hateful comments).
