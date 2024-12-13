@@ -52,12 +52,39 @@ The dataset’s imbalance required further preprocessing to ensure fair model tr
 Conclusion:
 The EDA provided critical insights into the dataset, allowing for informed decisions in the subsequent stages of the project. By understanding the dataset’s characteristics, the preprocessing and modeling approaches were tailored to effectively address the challenges of hate speech detection.
 
-3. **Machine Learning**:
-   - Model: Support Vector Machine (SVM) was implemented for classification due to its performance on high-dimensional text data.
-   - Evaluation Metrics: Accuracy, precision, recall, and F1-score were used to evaluate model performance.
-   - Results:
-     - Accuracy: 92%
-     - F1-Score: 0.91
+## Primary/Machine Learning Analysis
+
+Based on the insights from the Exploratory Data Analysis (EDA), three machine learning techniques were selected for the project: **DistilBERT**, **LSTM (Long Short-Term Memory)**, and **Naive Bayes**. These models were chosen for their effectiveness in processing and analyzing textual data, especially for Natural Language Processing (NLP) tasks such as hate speech detection.
+
+### Why were these techniques chosen?
+
+- **DistilBERT**: A smaller and faster version of the BERT (Bidirectional Encoder Representations from Transformers) model. It is pre-trained on large corpora and excels at understanding the context of words in sentences. DistilBERT’s transfer learning capability allows it to adapt quickly to hate speech detection with minimal computational resources.
+
+- **LSTM**: A type of Recurrent Neural Network (RNN) effective for processing sequential data like text. It captures long-term dependencies, crucial for understanding the context of words and phrases, making it ideal for identifying subtle cues in language.
+
+- **Naive Bayes**: A computationally efficient and straightforward model. It assumes independence between features and is useful for quick text analysis, providing a solid baseline for comparison.
+
+### How do these techniques help answer the key questions?
+
+- **DistilBERT**: By tokenizing and transforming text into embeddings, DistilBERT captures word relationships and context. It focuses on the critical parts of the input, ensuring accurate classification of hateful versus non-hateful comments.
+  
+- **LSTM**: Processes tokenized data and identifies sequential patterns, detecting relationships between words over time. This model can distinguish subtle language cues that separate hate speech from non-hateful content.
+  
+- **Naive Bayes**: Offers quick training and prediction times, ideal for initial exploration of text data distributions and feature importance, especially through TF-IDF.
+
+### Implementation Details:
+
+- **DistilBERT**: Utilized the pre-trained `distilbert-base-uncased` model. Text data was tokenized with the DistilBERT tokenizer, and data loaders were created with a batch size of 16. The AdamW optimizer was chosen for training, and the model was fine-tuned for 3 epochs.
+  
+- **LSTM**: The text data was tokenized and padded to ensure uniform input length. The model used ReLU and Sigmoid activation functions with the Adam optimizer. The LSTM model was trained for 5 epochs, with accuracy and loss monitored during training.
+  
+- **Naive Bayes**: The dataset was vectorized using the TF-IDF approach. The data was split into 80% training and 20% testing sets. The Multinomial Naive Bayes variant was used, providing an efficient but less nuanced approach compared to DistilBERT and LSTM.
+
+### Conclusion:
+
+- **DistilBERT** and **LSTM** were highly effective in addressing the project’s objectives. DistilBERT excelled due to its advanced contextual understanding, while LSTM provided a complementary approach by analyzing sequential relationships in text.
+  
+- **Naive Bayes**, while efficient and useful for initial exploration, struggled with more complex patterns in language. It was still valuable for understanding feature importance and text distributions but was outperformed by DistilBERT and LSTM in detecting nuanced language patterns.
 
 4. **Visualization**:
    - Example Code:
