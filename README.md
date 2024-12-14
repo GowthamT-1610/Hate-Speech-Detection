@@ -37,6 +37,7 @@ This project focuses on Hate Speech Detection using Natural Language Processing 
  
  ## E: ML Algorithm Training and Test Data Analysis
  Tadikamalla Gowtham Krishna —
+ 
  • DistilBERT: Completed tokenization, created data loaders, and trained the model for three epochs using the AdamW optimizer. Printed and plotted loss for each epoch.
  
  • LSTM: Split data into 80 percent training and 20 percent testing. Trained for five epochs and calculated accuracy and loss for evaluation.
