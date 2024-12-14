@@ -18,47 +18,34 @@ This project focuses on Hate Speech Detection using Natural Language Processing 
 
 ---
 
-Contributions
- A: Project Idea
- Sriyank Sagi — Researched various project ideas, discussed with group members, and collectively
- decided on an NLP-based project focused on Hate Speech Detection.
- B: Dataset Curation and Preprocessing
- Sriyank Sagi — Removed duplicates and null values, replaced them with correct data, checked
- that the context contained only text and no extraneous characters. Used the ‘langdetect‘ library
- to ensure only English sentences were retained in the dataset.
- C: Data Exploration and Summary Statistics
- Raahul Narayana Reddy Kummitha — Identified critical tests for the project, performed hy
-pothesis testing, and plotted results to evaluate the null hypothesis, which was rejected. Illustrated
- f
- indings with box plots, conducted Chi-Square tests, and analyzed data distribution.
- D: ML Algorithm Design/Development
- Tadikamalla Gowtham Krishna — Analyzed the data thoroughly and chose two machine learn
-ing models: the DistilBERT model and the LSTM model. For DistilBERT, used the pre-trained
- ‘distilbert-base-uncased‘ model and split the data into 80 percent training and 20 percent testing.
- Performed tokenization for both datasets and created data loaders with a batch size of 16. Se
-lected the AdamW optimizer for training. For the LSTM model, tokenized the data and selected
- ReLU and Sigmoid activation functions. Used the Adam optimizer to optimize model performance.
- Raahul Narayana Reddy Kummitha — Naive Bayes, trained with TF-IDF vectorization and
- an 80/20 train-test split, efficiently leveraged feature independence for classification, with per
-formance evaluated using precision, recall, F1-score, accuracy, confusion matrices, and visualized
+# Contributions
+ 
+ ## A: Project Idea
+ Sriyank Sagi — Researched various project ideas, discussed with group members, and collectively decided on an NLP-based project focused on Hate Speech Detection.
+ 
+ ## B: Dataset Curation and Preprocessing
+ Sriyank Sagi — Removed duplicates and null values, replaced them with correct data, checked that the context contained only text and no extraneous characters. Used the ‘langdetect‘ library to ensure only English sentences were retained in the dataset.
+ 
+ ## C: Data Exploration and Summary Statistics
+ Raahul Narayana Reddy Kummitha — Identified critical tests for the project, performed hypothesis testing, and plotted results to evaluate the null hypothesis, which was rejected. Illustrated findings with box plots, conducted Chi-Square tests, and analyzed data distribution.
+ 
+ ## D: ML Algorithm Design/Development
+ Tadikamalla Gowtham Krishna — Analyzed the data thoroughly and chose two machine learning models: the DistilBERT model and the LSTM model. For DistilBERT, used the pre-trained ‘distilbert-base-uncased‘ model and split the data into 80 percent training and 20 percent testing. Performed tokenization for both datasets and created data loaders with a batch size of 16. Se lected the AdamW optimizer for training. For the LSTM model, tokenized the data and selected ReLU and Sigmoid activation functions. Used the Adam optimizer to optimize model performance.
+ Raahul Narayana Reddy Kummitha — Naive Bayes, trained with TF-IDF vectorization and an 80/20 train-test split, efficiently leveraged feature independence for classification, with per formance evaluated using precision, recall, F1-score, accuracy, confusion matrices, and visualized
  through bar charts.
- E: ML Algorithm Training and Test Data Analysis
+ 
+ ## E: ML Algorithm Training and Test Data Analysis
  Tadikamalla Gowtham Krishna —
- • DistilBERT: Completed tokenization, created data loaders, and trained the model for three
- epochs using the AdamW optimizer. Printed and plotted loss for each epoch.
- • LSTM: Split data into 80 percent training and 20 percent testing. Trained for five epochs
- and calculated accuracy and loss for evaluation.
+ • DistilBERT: Completed tokenization, created data loaders, and trained the model for three epochs using the AdamW optimizer. Printed and plotted loss for each epoch.
+ • LSTM: Split data into 80 percent training and 20 percent testing. Trained for five epochs and calculated accuracy and loss for evaluation.
  Raahul Narayana Reddy Kummitha —
- • Naive Bayes: The dataset was vectorized using TF-IDF, split into 80 percent training and
- 20 percent testing, and trained using the Multinomial Naive Bayes algorithm, well-suited for
- text classification.
- F: Visualization, Result Analysis, Conclusion
- Venakata SatySai Maruti Kameshwar Modali — Visualized accuracy metrics and evaluation
- matrices such as confusion matrices and AUROC curves. Compared models and concluded that
- DistilBERT performed best.
- G: Final Tutorial Report Creation
- Dhanush Garikapati — Prepared the final project report and created the GitHub Pages tutorial.
- Also contributed to model selection and training.
+ • Naive Bayes: The dataset was vectorized using TF-IDF, split into 80 percent training and 20 percent testing, and trained using the Multinomial Naive Bayes algorithm, well-suited for text classification.
+ 
+ ## F: Visualization, Result Analysis, Conclusion
+ Venakata SatySai Maruti Kameshwar Modali — Visualized accuracy metrics and evaluation matrices such as confusion matrices and AUROC curves. Compared models and concluded that DistilBERT performed best.
+ 
+ ## G: Final Tutorial Report Creation
+ Dhanush Garikapati — Prepared the final project report and created the GitHub Pages tutorial. Also contributed to model selection and training.
  
 ---
 
