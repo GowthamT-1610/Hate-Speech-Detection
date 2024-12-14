@@ -43,6 +43,7 @@ This project focuses on Hate Speech Detection using Natural Language Processing 
  • LSTM: Split data into 80 percent training and 20 percent testing. Trained for five epochs and calculated accuracy and loss for evaluation.
  
  Raahul Narayana Reddy Kummitha —
+ 
  • Naive Bayes: The dataset was vectorized using TF-IDF, split into 80 percent training and 20 percent testing, and trained using the Multinomial Naive Bayes algorithm, well-suited for text classification.
  
  ## F: Visualization, Result Analysis, Conclusion
