@@ -6,8 +6,6 @@
 This project focuses on Hate Speech Detection using Natural Language Processing (NLP) techniques and machine learning models to identify hateful text on social media. Motivated by the increasing prevalence of hate speech, the dataset reflects social media trends, including emoticons and slang, which complicate detection. It is preprocessed and categorized into hateful ("1") or non-hateful ("0") text, enabling the training of effective models. This benchmark dataset supports Deep Learning (DL) and NLP applications, aiding in the development of automated systems to filter harmful content while adhering to policy guidelines to reduce cyber harm.
 
 ---
-
-# Contributions
  
  ## A: Project Idea
  Researched various project ideas, discussed with group members, and collectively decided on an NLP-based project focused on Hate Speech Detection.
